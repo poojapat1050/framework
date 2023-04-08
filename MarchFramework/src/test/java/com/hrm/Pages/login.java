@@ -16,7 +16,7 @@ public class login {
 	public void enteruserName()
 	{
 		
-		//page
+		//page update
 		System.out.println("enter username");
 		helper.findAndSendKeys(driver, username, "Admin");
 	}
