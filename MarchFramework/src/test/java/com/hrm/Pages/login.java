@@ -15,6 +15,8 @@ public class login {
 	By submit_button=By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']");
 	public void enteruserName()
 	{
+		
+		//page
 		System.out.println("enter username");
 		helper.findAndSendKeys(driver, username, "Admin");
 	}
